@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    background-image: url(img/bg_orson.png);
+    background-position: fixed center;
+    }
+
+a, a:visited, a:active {
+    text-decoration: none;
+}
+
+.head {
+margin: 10rem auto 0 auto;
+width: 30rem;
+background-color: rgb(189, 20, 20);
+padding: 1.5rem;
+font-family: 'Baskervville', serif;
+    font-weight: 800;
+    font-size: 3rem;
+    color: #eee;
+    line-height: 2.6rem;
+    letter-spacing: 0.02rem;
+}
+
+
+.content {
+    margin: 0 auto;
+    width: 30rem;
+    background-color: rgb(173, 173, 173);
+    padding: 1.5rem;
+    font-family: 'Adamina', serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    letter-spacing: -0.01rem;
+    
+}
+
+.link {
+    margin: 0 auto;
+    width: 30rem;
+    background-color: rgb(0, 0, 0);
+    padding: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    color: #797979;
+    line-height: 2.6rem;
+    letter-spacing: -0.01rem;
+    border-top: 10px dashed #4c4c4c;
+       
+    }
+
+    @-ms-viewport {
+
+        width: auto!important;
+    
+    }
+    
+    @viewport {
+    
+        width: device-width;
+    
+    }
+
+    @media screen and (max-width:580px) {
+
+
+        .head {
+            margin:  0 auto;
+            width: 50rem;
+            background-color: rgb(189, 20, 20);
+            padding: 3rem;
+            font-family: 'Baskervville', serif;
+            font-weight: 800;
+        font-size: 4.5rem;
+        color: #eee;
+        line-height: 4.3rem;
+        letter-spacing: 0.02rem;
+            }
+            
+            
+            .content {
+                margin: 0 auto;
+                width: 50rem;
+                background-color: rgb(173, 173, 173);
+                padding: 3rem;
+                font-family: 'Adamina', serif;
+                font-weight: 200;
+                font-size: 2rem;
+                line-height: 2.6rem;
+                letter-spacing: -0.01rem;
+            }
+            
+            .link {
+                margin: 0 auto;
+                width: 50rem;
+                background-color: rgb(0, 0, 0);
+                padding: 3rem;
+                font-family: 'Roboto', sans-serif;
+                font-size: 2.8rem;
+                color: #797979;
+                line-height: 2.6rem;
+                letter-spacing: -0.01rem;
+                border-top: 10px dashed #4c4c4c;
+
+            }
+
+        }

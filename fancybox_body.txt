@@ -1,0 +1,27 @@
+<!-- texto aviso fancybox -->
+
+<script type="text/javascript">
+   $(document).ready(function () {
+        $.fancybox({
+            'autoScale': true,
+            'transitionIn': 'fade',
+            'transitionOut': 'fade',
+            'type': 'inline',
+            'href': '#aviso'
+        });
+});
+</script>
+<!--fancybox aviso -->
+<div style="display: none;">
+		<div id="aviso" style="width:400px;">
+			<span class="text"><strong>Envio de artigos para a segunda edição da Orson</strong></span>
+			<br><br>
+			<span class="textgray">A revista acadêmica dos cursos de Cinema e Audiovisual e Cinema de Animação da UFPel vai para sua segunda edição. Salientamos que a submissão de artigos, direcionados conforme as seções da revista e <a href="normas.html" target="_blank">as normas de submissão</a>, deve ser feita até 31 de maio de 2012 para este e-mail: revistaorson@gmail.com.            
+                        
+          </span>
+			
+		</div>
+	</div>
+
+<!-- fim do aviso fancybox -->
+  

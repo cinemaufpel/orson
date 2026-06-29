@@ -1,0 +1,409 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="language" content="pt-br" />
+<title>ORSON Revista dos Cursos de Cinema e Anima&ccedil;&atilde;o Cearte UFPEL</title>
+<link href="orson.css" rel="stylesheet" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans' rel='stylesheet' type='text/css'>
+<link rel="shortcut icon" href="img/favicon.gif" type="image/gif" >
+<meta charset="uft-8">
+
+<!-- início código analytics -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-25802128-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- fancybox para os avisos -->
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.fancybox.js"></script>
+	<link rel="stylesheet" type="text/css" href="scripts/jquery.fancybox.css" media="screen" />
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				Simple image gallery. Use default settings
+			*/
+
+			$('.fancybox').fancybox();
+
+			/*
+				Different effects
+			*/
+
+			// Change title type, overlay opening speed and opacity
+			$(".fancybox-effects-a").fancybox({
+				helpers: {
+					title : {
+						type : 'outside'
+					},
+					overlay : {
+						speedIn : 500,
+						opacity : 0.95
+					}
+				}
+			});
+
+			// Disable opening and closing animations, change title type
+			$(".fancybox-effects-b").fancybox({
+				openEffect  : 'none',
+				closeEffect	: 'none',
+
+				helpers : {
+					title : {
+						type : 'over'
+					}
+				}
+			});
+
+			// Set custom style, close if clicked, change title type and overlay color
+			$(".fancybox-effects-c").fancybox({
+				wrapCSS    : 'fancybox-custom',
+				closeClick : true,
+
+				helpers : {
+					title : {
+						type : 'inside'
+					},
+					overlay : {
+						css : {
+							'background-color' : '#eee'
+						}
+					}
+				}
+			});
+
+			// Remove padding, set opening and closing animations, close if clicked and disable overlay
+			$(".fancybox-effects-d").fancybox({
+				padding: 0,
+
+				openEffect : 'elastic',
+				openSpeed  : 150,
+
+				closeEffect : 'elastic',
+				closeSpeed  : 150,
+
+				closeClick : true,
+
+				helpers : {
+					overlay : null
+				}
+			});
+
+			/*
+				Button helper. Disable animations, hide close button, change title type and content
+			*/
+
+			$('.fancybox-buttons').fancybox({
+				openEffect  : 'none',
+				closeEffect : 'none',
+
+				prevEffect : 'none',
+				nextEffect : 'none',
+
+				closeBtn  : false,
+
+				helpers : {
+					title : {
+						type : 'inside'
+					},
+					buttons	: {}
+				},
+
+				afterLoad : function() {
+					this.title = 'Image ' + (this.index + 1) + ' of ' + this.group.length + (this.title ? ' - ' + this.title : '');
+				}
+			});
+
+
+			/*
+				Thumbnail helper. Disable animations, hide close button, arrows and slide to next gallery item if clicked
+			*/
+
+			$('.fancybox-thumbs').fancybox({
+				prevEffect : 'none',
+				nextEffect : 'none',
+
+				closeBtn  : false,
+				arrows    : false,
+				nextClick : true,
+
+				helpers : {
+					thumbs : {
+						width  : 50,
+						height : 50
+					}
+				}
+			});
+
+		});
+	</script>
+<style type="text/css">
+		.fancybox-custom .fancybox-outer {
+			box-shadow: 0 0 50px #222;
+		}
+	</style>
+
+<!-- fim fancybox dos avisos -->
+<style type="text/css">
+
+/* seletores necess�rios para adaptar a aus�ncia de uma se��o na edi��o #3 */
+
+#domquixote_content {
+	background-color: white;
+	height: 281px;
+	width: 930px;
+	padding-top: 40px;
+	position: absolute;
+	top: 1150px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+#kane_content {
+	background-color: #e1e1e1;
+	height: 291px;
+	width: 930px;
+	padding-top: 40px;
+	position: absolute;
+	top: 1520px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	left: 0;
+}
+
+#dossie-perif_content {
+	background-color: #FFF;
+	height: 281px;
+	width: 930px;
+	padding-top: 40px;
+	position: absolute;
+	top: 413px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	left: 0px;
+}
+
+#destaque_dossie-perif {
+	position: absolute;
+	height: 286px;
+	width: 315px;
+	left: 636px;
+	top: 35px;
+}
+
+#cartola_dossie-perif {
+	background-image: url(12/dossie_perif_bg.gif);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 20px;
+	width: 257px;
+	left: 0px;
+	top: 173px;
+	padding-top: 85px;
+	padding-right: 30px;
+	padding-bottom: 5px;
+	padding-left: 30px;
+	text-align: left;
+}
+
+#coluna1_dossie-perif {
+	position: absolute;
+	height: 271px;
+	width: 255px;
+	left: 36px;
+	top: 34px;
+}
+
+#coluna2_dossie-perif {
+	position: absolute;
+	height: 271px;
+	width: 255px;
+	left: 333px;
+	top: 34px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+
+<div id="barraverm">
+<div id="content_barra"><div id="brand"><a href="index.html"><img src="img/brand.gif" border="0" /></a></div></div>
+</div>
+<div id="content_home">
+
+<div class="textgray" id="navbar">ISSN 2237-3381 Revista dos Cursos de Cinema do Cearte UFPEL  n&ordm;12 ano 2017</div>
+<div id="navbar_inside"><a class="navbar" href="apresentacao.html">apresenta&ccedil;&atilde;o</a>&nbsp;&nbsp; <a href="expediente.html" class="navbar">expediente&nbsp;</a>&nbsp; <a href="normas.html" class="navbar">normas</a>&nbsp;&nbsp; <a href="anteriores.html" class="navbar">edi&ccedil;&otilde;es anteriores</a></a> &nbsp;&nbsp;<a href="contatos.html" class="navbar">contatos</a></div>
+<div id="capa"><img src="12/imagem_capa.jpg" /></div>
+<div id="barra_home">
+<div class="textgreen" id="verde_content">editorial:<span class="textwhite"> <a href="12/artigos/orson12-editorial.pdf" target="_blank"  class="textwhite">Por que ler</a></span><br />
+  <span class="text">Na Orson 12, temos o Dossiê Ficção Seriada, explorando o universo das produções em série. </span></div>
+<div id="verm_content"><span class="textwhite">  <img src="img/tablet_icon.gif" width="65" height="60" align="left" /><a href="12/artigos/orson12-completa.pdf" target="_blank"  class="textwhite">Orson na &iacute;ntegra para tablet's</a></span><br />
+  <span class="text">Fa&ccedil;a o download da Revista Orson para ler
+ offline  em seu tablet ou pc/mac. </span></div>
+ <div id="cinza_content"><img src="img/icon_submission.gif" align="left" /><span class="textwhite"><a  class="textwhite" href="normas.html">Submiss&atilde;o de artigos</a></span><br />
+   <span class="text">Procedimentos e normas para
+   publica&ccedil;&atilde;o de artigos na Orson.</span> <br />
+ </div></div>
+
+ <!-- AQUI INICIA A SESSÃO DOSSIÊ -->
+
+ <div id="dossie-perif_content">
+
+ 	<!-- Cartola Dossiê -->
+ <div id="destaque_dossie-perif"><img src="12/dossie-perif.jpg" width="284" height="173" align="right" />
+ <div class="text" id="cartola_dossie-perif">artigos temáticos</div>
+ </div>
+
+ <!-- Primeira Coluna Dossiê -->
+
+ <div class="text" id="coluna1_dossie-perif">
+
+ 	<a href="12/artigos/dossie/01-dossie-01-nobrega.pdf" target="_blank">De máquinas a robôs e da inteligência à consciência: diálogos entre Robótica, Inteligência Artificial e Ficção</a><br />
+	<span class="textgray">Lívia de Pádua Nóbrega<br /><br /></span>
+
+	<a href="12/artigos/dossie/01-dossie-02-azambuja.pdf" target="_blank">Spin-off e Direção de Arte em Psicose e Bates Motel: objetos como personagens sinistros a serviço da dualidade na narrativa</a>
+	<span class="textgray"><br />
+	Patrícia Azambuja<br />Jocy Meneses Dos Santos Jr<br /> Jéssica Reis Araujo<br /></span>
+
+	<br />
+
+
+
+
+</div>
+
+ <!-- Segunda Coluna Dossiê -->
+
+<div id="coluna2_dossie-perif">
+
+	<span class="text"><a href="12/artigos/dossie/01-dossie-03-marafon.pdf" target="_blank">Velhice e sexualidade: recepção e consumo da série Grace And Frankie por espectadores brasileiros da Netflix</a>
+	<span class="textgray"><br />
+	Luciano da Rosa Marafon<br />
+	Dafne Reis Pedroso da Silva<br />
+	<br /></span>
+
+	<span class="text"><a href="12/artigos/dossie/01-dossie-04-mitie.pdf" target="_blank">Ficção seriada: binge watching e estrutura narrativa em Stranger Things e Twin Peaks</a>
+	<span class="textgray"><br />Débora Mitie <br /> Bruno Leites</span><br /><br />
+
+	<span class="text"><a href="12/artigos/dossie/01-dossie-05-ebersol.pdf" target="_blank">Colorismo e negritude em Cara Gente Branca</a></span><br />
+	<span class="textgray">Isadora Ebersol<br />
+	</span>
+
+
+</div>
+</div>
+
+
+
+ <!-- AQUI TERMINA O DOSSIÊ -->
+
+ <!-- AQUI INICIA A SESSÃO PRIMEIRO OLHAR -->
+
+ <div id="primeiroolhar_content">
+
+ <!-- Cartola Primeiro Olhar -->
+ <div id="destaque_primeiroolhar"><img src="01/primeiroolhar01.jpg" width="284" height="173" />
+ <div class="text" id="cartola_primeiroolhar">artigos sobre cinema e audiovisual</div>
+ </div>
+
+ <!-- Primeira Coluna Primeiro Olhar -->
+
+ 		<div id="coluna1_primeiroolhar"><span class="text"><a href="12/artigos/primeiro_olhar/02-primeiro-olhar-01-silvas.pdf" target="_blank">Transgressão de gênero, performatividade e violência em Tomboy</a></span><br />
+     <span class="textgray">Caio Ramos da Silva <br /> Alexandre Rocha da Silva</span><br />
+     <br />
+     </a><span class="text"><a href="12/artigos/primeiro_olhar/02-primeiro-olhar-02-langie.pdf" target="_blank">Cinema brasileiro para além do espetáculo: pistas para uma curadoria criativa em cinemas universitários</a></span><br />
+     <span class="textgray">Cíntia Langie</span><br />
+      <br />
+
+<br />
+  <br />
+ </div>
+
+ <!-- Segunda Coluna Primeiro Olhar -->
+
+ <div class="text" id="coluna2_primeiroolhar"><a href="12/artigos/primeiro_olhar/02-primeiro-olhar-03-ivonete.pdf" target="_blank">No Intenso Agora e a memória que falta</a><br />
+   <span class="textgray">Ivonete Pinto</span><br />
+   <br />
+   <a href="12/artigos/primeiro_olhar/02-primeiro-olhar-04-feix.pdf" target="_blank">A cidade pós-moderna, a cidade hiper-real: Imagens da distorção em Lyotard e Baudrillard</a><br />
+   <span class="textgray">Daniel Feix</span><br />
+   <br />
+
+
+ </div>
+ </div>
+
+<!-- AQUI TERMINA A SESSÃO PRIMEIRO OLHAR -->
+
+<!-- AQUI INICIA A SESSÂO O PROCESSO -->
+
+
+<!-- AQUI TERMINA A SESSÃO O PROCESSO -->
+
+<!-- AQUI INICIA A SESSÃO DOM QUIXOTE -->
+
+ <div id="domquixote_content">
+
+ <!-- Cartola Dom Quixote -->
+ <div id="destaque_domquixote"><img src="01/domquixote01.jpg" width="284" height="173" align="right" />
+ <div class="text" id="cartola_domquixote">o que estamos lendo</div>
+ </div>
+
+ <!-- Primeira Coluna Dom Quixote -->
+
+ <div class="text" id="coluna1_domquixote"><a href="12/artigos/dom_quixote/03-resenha-01-ribeiro.pdf" target="_blank">Trajetórias da crítica cinematográfica em Porto Alegre </a><br />
+   <span class="textgray">Carlos Eduardo da Silva Ribeiro<br />
+   <br />
+   </span>
+
+ </div>
+
+ <!-- Segunda Coluna Dom Quixote -->
+
+
+ </div>
+
+<!-- AQUI TERMINA A SESSÃO DOM QUIXOTE -->
+
+<!-- AQUI INICIA A SESSÃO KANE -->
+
+ <div id="kane_content">
+
+ <!-- Cartola Kane -->
+ <div id="destaque_kane"><img src="01/kane01.jpg" width="284" height="173" align="left" />
+ <div class="text" id="cartola_kane">com quem estamos conversando</div>
+ </div>
+
+ <!-- Primeira Coluna Kane  -->
+
+ <div id="coluna1_kane"><span class="text"><a href="12/artigos/entrevistas/04-entrevista-01-schneider.pdf" target="_blank">Entrevista: Fabio Yamaji</a></span><br />
+   <span class="textgray">Carla Schneider<br />
+   <br />
+   </span><span class="text"></div>
+
+ <!-- Segunda Coluna Kane -->
+
+
+ </div>
+
+<!-- AQUI TERMINA A SESSÃO KANE -->
+</div>
+<div id="footer">Universidade Federal de Pelotas  Centro de Artes Cursos de Cinema de Anima&ccedil;&atilde;o e Cinema e Audiovisual</div>
+</body>
+</html>

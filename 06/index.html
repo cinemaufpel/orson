@@ -1,0 +1,359 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="language" content="pt-br" />
+<title>ORSON Revista dos Cursos de Cinema e Anima&ccedil;&atilde;o Cearte UFPEL</title>
+<link href="../orson.css" rel="stylesheet" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans' rel='stylesheet' type='text/css'>
+<link rel="shortcut icon" href="../img/favicon.gif" type="image/gif" >
+
+<!-- início código analytics -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-25802128-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- fancybox para os avisos -->
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script type="text/javascript" src="../scripts/jquery.fancybox.js"></script>
+	<link rel="stylesheet" type="text/css" href="../scripts/jquery.fancybox.css" media="screen" />
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				Simple image gallery. Use default settings
+			*/
+
+			$('.fancybox').fancybox();
+
+			/*
+				Different effects
+			*/
+
+			// Change title type, overlay opening speed and opacity
+			$(".fancybox-effects-a").fancybox({
+				helpers: {
+					title : {
+						type : 'outside'
+					},
+					overlay : {
+						speedIn : 500,
+						opacity : 0.95
+					}
+				}
+			});
+
+			// Disable opening and closing animations, change title type
+			$(".fancybox-effects-b").fancybox({
+				openEffect  : 'none',
+				closeEffect	: 'none',
+
+				helpers : {
+					title : {
+						type : 'over'
+					}
+				}
+			});
+
+			// Set custom style, close if clicked, change title type and overlay color
+			$(".fancybox-effects-c").fancybox({
+				wrapCSS    : 'fancybox-custom',
+				closeClick : true,
+
+				helpers : {
+					title : {
+						type : 'inside'
+					},
+					overlay : {
+						css : {
+							'background-color' : '#eee'	
+						}
+					}
+				}
+			});
+
+			// Remove padding, set opening and closing animations, close if clicked and disable overlay
+			$(".fancybox-effects-d").fancybox({
+				padding: 0,
+
+				openEffect : 'elastic',
+				openSpeed  : 150,
+
+				closeEffect : 'elastic',
+				closeSpeed  : 150,
+
+				closeClick : true,
+
+				helpers : {
+					overlay : null
+				}
+			});
+
+			/*
+				Button helper. Disable animations, hide close button, change title type and content
+			*/
+
+			$('.fancybox-buttons').fancybox({
+				openEffect  : 'none',
+				closeEffect : 'none',
+
+				prevEffect : 'none',
+				nextEffect : 'none',
+
+				closeBtn  : false,
+
+				helpers : {
+					title : {
+						type : 'inside'
+					},
+					buttons	: {}
+				},
+
+				afterLoad : function() {
+					this.title = 'Image ' + (this.index + 1) + ' of ' + this.group.length + (this.title ? ' - ' + this.title : '');
+				}
+			});
+
+
+			/*
+				Thumbnail helper. Disable animations, hide close button, arrows and slide to next gallery item if clicked
+			*/
+
+			$('.fancybox-thumbs').fancybox({
+				prevEffect : 'none',
+				nextEffect : 'none',
+
+				closeBtn  : false,
+				arrows    : false,
+				nextClick : true,
+
+				helpers : { 
+					thumbs : {
+						width  : 50,
+						height : 50
+					}
+				}
+			});
+
+		});
+	</script>
+<style type="text/css">
+		.fancybox-custom .fancybox-outer {
+			box-shadow: 0 0 50px #222;
+		}
+	</style>
+
+<!-- fim fancybox dos avisos -->
+<style type="text/css">
+
+/* seletores necessários para adaptar a ausência de uma seção na edição #3 */
+
+#domquixote_content {
+	background-color: #E1E1E1;
+	height: 281px;
+	width: 930px;
+	padding-top: 40px;
+	position: absolute;
+	top: 1180px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+#kane_content {
+	background-color: #fff;
+	height: 291px;
+	width: 930px;
+	padding-top: 40px;
+	position: absolute;
+	top: 1520px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	left: 0;
+}	
+
+</style>
+
+</head>
+
+<body>
+
+
+  
+<div id="barraverm">
+<div id="content_barra"><div id="brand"><a href="../index.html"><img src="../img/brand.gif" border="0" /></a></div></div>
+</div>
+<div id="content_home">
+
+<div class="textgray" id="navbar">ISSN 2237-3381 Revista dos Cursos de Cinema do Cearte UFPEL  n&ordm;4 ano 2013</div>
+<div id="navbar_inside"><a class="navbar" href="../apresentacao.html">apresenta&ccedil;&atilde;o</a>&nbsp;&nbsp; <a href="../expediente.html" class="navbar">expediente&nbsp;</a>&nbsp; <a href="../normas.html" class="navbar">normas</a>&nbsp;&nbsp; <a href="../anteriores.html" class="navbar">edi&ccedil;&otilde;es anteriores</a></a> &nbsp;&nbsp;<a href="../contatos.html" class="navbar">contatos</a></div>
+<div id="capa"><img src="imagem_capa.jpg" /></div>
+<div id="barra_home">
+<div class="textgreen" id="verde_content">editorial:<span class="textwhite"> <a href="artigos/editorial.pdf" target="_blank"  class="textwhite">Por que ler</a></span><br />
+  <span class="text">Celebrando o centen&aacute;rio, de olho no futuro</span></div>
+<div id="verm_content"><span class="textwhite">  <img src="../img/tablet_icon.gif" width="65" height="60" align="left" /><a href="artigos/orson4_full.pdf" target="_blank"  class="textwhite">Orson na &iacute;ntegra para tablet's</a></span><br />
+  <span class="text">Fa&ccedil;a o download da Revista Orson para ler
+ offline  em seu tablet ou pc/mac. </span></div>
+ <div id="cinza_content"><img src="../img/icon_submission.gif" align="left" /><span class="textwhite"><a  class="textwhite" href="../normas.html">Submiss&atilde;o de artigos</a></span><br />
+   <span class="text">Procedimentos e normas para 
+   publica&ccedil;&atilde;o de artigos na Orson.</span> <br />
+ </div></div>
+ 
+ <!-- AQUI INICIA A SESSÃO PRIMEIRO OLHAR -->
+ 
+ <div id="primeiroolhar_content">
+ 
+ <!-- Cartola Primeiro Olhar -->
+ <div id="destaque_primeiroolhar"><img src="../01/primeiroolhar01.jpg" width="284" height="173" />
+ <div class="text" id="cartola_primeiroolhar">artigos sobre cinema e audiovisual</div>
+ </div>
+ 
+ <!-- Primeia Coluna Primeiro Olhar -->
+ 
+ <div id="coluna1_primeiroolhar"><span class="text"><a href="artigos/primeiro_olhar/cintia_langie.pdf" target="_blank">Francisco Santos 100 anos depois</a></span><a href="artigos/primeiro_olhar/guilherme_rosa.pdf" target="_blank"><br />
+     <span class="textgray">Cintia Langie Ara&uacute;jo</span><br />
+     <br />
+     </a><span class="text"><a href="artigos/primeiro_olhar/liangela_xavier.pdf" target="_blank">A pró-atividade de Francisco Santos</a></span><br />
+     <span class="textgray">Li&acirc;ngela Carret Xavier</span><br />
+     <br />
+     <span class="text"><a href="artigos/primeiro_olhar/guilherme_rosa.pdf" target="_blank">Os cinemas de calçada e a modernidade periférica: um olhar sobre o Cine Capitólio em Pelotas/RS</a></span><br />
+     <span class="textgray">Guilherme Carvalho da Rosa<br />
+     <br />
+     </span><span class="text"><a href="artigos/primeiro_olhar/vivian_herzog.pdf" target="_blank">A animação e o desenho como elemento performático: a presença do gesto do animador</a></span><span class="textgray"><br />
+     Vivian Herzog</span> <br />
+<br />
+  <br />
+ </div>
+ 
+ <!-- Segunda Coluna Primeiro Olhar -->
+ 
+ <div class="text" id="coluna2_primeiroolhar"><a href="artigos/primeiro_olhar/ivonete_pinto.pdf" target="_blank">Entre filmes e passeatas &ndash; o Festival de Cinema de Istambul e seu contexto</a><br />
+   <span class="textgray">Ivonete Medianeira Pinto</span><br />
+   <br />
+   <a href="artigos/primeiro_olhar/josias_et_al.pdf" target="_blank">Direção de atores e semiótica greimasiana na decupagem do roteiro</a><br />
+   <span class="textgray">Josias Pereira, Rogério Peres, Vagner Vargas, Rodrigo Esteves e Alan Pretto</span><br />
+   <br />
+   <a href="artigos/primeiro_olhar/yuri_fonseca.pdf" target="_blank">Aspectos da narrativa de David Lean</a><br />
+   <span class="textgray">Yuri Ikeda Fonseca<br />
+   <br />
+   </span><a href="artigos/primeiro_olhar/fabio_soares.pdf" target="_blank">Lavoura Arcaica: do problema do movimento à dança do tempo na imagem</a><span class="textgray"><br />
+   Fabio Montalvão Soares   </span><br />
+ </div>
+ </div>
+
+<!-- AQUI TERMINA A SESSÃO PRIMEIRO OLHAR -->
+
+<!-- AQUI INICIA A SESSÃO O PROCESSO -->
+ 
+ <div id="processo_content">
+ 
+ <!-- Cartola O Processo -->
+ <div id="destaque_processo"><img src="../01/processo01.jpg" width="284" height="173" align="right" />
+ <div class="text" id="cartola_processo">o que estamos estudando</div>
+ </div>
+ 
+ <!-- Primeia Coluna O Processo -->
+ 
+ <div class="text" id="coluna1_processo"><a href="artigos/o_processo/alysson_oliveira.pdf" target="_blank">O espectro do capitalismo: uma leitura de Cosmópolis</a><br />
+   <span class="textgray">Alysson Tadeu Alves de Oliveira<br />
+   <br />
+   </span><a href="artigos/o_processo/karen_kremes.pdf" target="_blank">Batman sem máscara: a representação das classes sociais a partir do estereótipo</a><span class="textgray"><br />
+   Karen K. Kremes<br />
+   <a href="artigos/o_processo/guilherme_luz.pdf" target="_blank"><br />
+   </a></span><a href="artigos/o_processo/guilherme_luz.pdf" target="_blank">As ferramentas documentais em Anchieta, 815: um relato de experiência</a><span class="textgray"><br />
+   Guilherme Gon&ccedil;alves da Luz<br />
+   <br />
+   </span><a href="artigos/o_processo/augusto_dantas.pdf" target="_blank">Liverpool: Lisandro Alonso e a objetividade</a><span class="textgray"><br />
+   Augusto Dantas
+   </span><br />
+ </div>
+ 
+ <!-- Segunda Coluna O processo -->
+ 
+ <div id="coluna2_processo"><span class="text"><a href="artigos/o_processo/henrique_kopke.pdf" target="_blank">A fração do ritmo: o estudo do movimento e sua aplicação no cinema de animação</a></span><br />
+   <span class="textgray">Henrique Moraes Köpke<br />
+   </span><span class="text"><br />
+   <a href="artigos/o_processo/lucas_ness.pdf" target="_blank">A influência da pirataria na difusão cultural: a quantidade de filmes piratas como fator determinante da exigência do público consumidor</a><br />
+   </span><span class="textgray">Lucas Mello Ness<br />
+   <br />
+   </span><span class="text"><a href="artigos/o_processo/gilka_vargas.pdf" target="_blank">Direção de arte: do cinematógrafo ao cinema digital</a></span><span class="textgray"><br />
+   Gilka Padilha de Vargas</span><br />
+   <br />
+ </div>
+ </div>
+
+<!-- AQUI TERMINA A SESSÃO O PROCESSO -->
+
+<!-- AQUI INICIA A SESSÃO PROFUNDIDADE DE CAMPO --><!-- AQUI TERMINA A SESSÃO PROFUNDIDADE DE CAMPO -->
+
+<!-- AQUI INICIA A SESSÃO DOM QUIXOTE -->
+ 
+ <div id="domquixote_content">
+ 
+ <!-- Cartola Dom Quixote -->
+ <div id="destaque_domquixote"><img src="../01/domquixote01.jpg" width="284" height="173" align="left" />
+ <div class="text" id="cartola_domquixote">o que estamos lendo</div>
+ </div>
+ 
+ <!-- Primeia Coluna Dom Quixote -->
+ 
+ <div class="text" id="coluna1_domquixote"><a href="artigos/dom_quixote/andre_macedo.pdf" target="_blank">Stop-motion</a><br />
+   <span class="textgray">Andr&eacute; Macedo<br />
+   <br />
+   </span><a href="artigos/dom_quixote/ivonete_pinto.pdf" target="_blank">A Filme Cultura e a pesquisa</a><span class="textgray"><br />
+   Ivonete Pinto<br />
+   </span><br />
+ </div>
+ 
+ <!-- Segunda Coluna Dom Quixote -->
+ 
+ <div id="coluna2_domquixote"><span class="text"><a href="artigos/dom_quixote/cintia_langie.pdf" target="_blank">Roteiro de documentário</a><span class="textgray"><br />
+Cintia Langie </span><br />
+<br />
+<a href="artigos/dom_quixote/sergio_rizzo.pdf" target="_blank">Cinema japonês na Liberdade</a><br />
+</span><span class="textgray">S&eacute;rgio Rizzo</span><span class="text"><br />
+<br />
+ </span></div>
+ </div>
+
+<!-- AQUI TERMINA A SESSÃO DOM QUIXOTE -->
+
+<!-- AQUI INICIA A SESSÃO KANE -->
+ 
+ <div id="kane_content">
+ 
+ <!-- Cartola Kane -->
+ <div id="destaque_profcampo"><img src="../01/kane01.jpg" width="284" height="173" align="right" />
+ <div class="text" id="cartola_kane">com quem estamos conversando</div>
+ </div>
+ 
+ <!-- Primeia Coluna Kane  -->
+ 
+ <div id="coluna1_kane"><span class="text"><a href="artigos/entrevistas/eliane_gordeeff_1.pdf" target="_blank">Entrevista: Quiá Rodrigues</a></span><br />
+   <span class="textgray">Eliane M. Gordeeff<br />
+   <br />
+   </span><span class="text"><a href="artigos/entrevistas/eliane_gordeeff_2.pdf" target="_blank">Entrevista: Quiá Rodrigues II &ndash; de Janela pro de Janela</a><br />
+   </span><span class="textgray">Eliane M. Gordeeff</span></div>
+ 
+ <!-- Segunda Coluna Kane -->
+ 
+ <div id="coluna2_kane"><span class="text"><a href="artigos/entrevistas/ivonete_pinto.pdf" target="_blank">Entrevista: Zézé Gamboa</a></span><br />
+   <span class="textgray">Ivonete Pinto </span></div>
+ </div>
+
+<!-- AQUI TERMINA A SESSÃO KANE -->
+</div>
+<div id="footer">Universidade Federal de Pelotas  Centro de Artes Cursos de Cinema de Anima&ccedil;&atilde;o e Cinema e Audiovisual</div>
+</body>
+</html>
