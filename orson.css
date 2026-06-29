@@ -262,14 +262,14 @@ body {
 	position: absolute;
 }
 .textgray {
-	font-family: "Quattrocento Sans";
+	font-family: "Arial";
 	font-size: 14px;
 	line-height: 1.3em;
 	color: #999999;
 	text-decoration: none;
 }
 .textred {
-	font-family: "Quattrocento Sans";
+	font-family: "Arial";
 	font-size: 14px;
 	line-height: 1.3em;
 	color: #C00;
@@ -284,25 +284,25 @@ body {
 	top: 9px;
 }
 a.navbar:link {
-	font-family: "Quattrocento Sans";
+	font-family: "Arial";
 	font-size: 14px;
 	color: #FFF;
 	text-decoration: none;
 }
 a.navbar:visited {
-	font-family: "Quattrocento Sans";
+	font-family: "Arial";
 	font-size: 14px;
 	color: #FFF;
 	text-decoration: none;
 }
 a.navbar:active {
-	font-family: "Quattrocento Sans";
+	font-family: "Arial";
 	font-size: 14px;
 	color: #FFF;
 	text-decoration: none;
 }
 a.navbar:hover {
-	font-family: "Quattrocento Sans";
+	font-family: "Arial";
 	font-size: 14px;
 	color: #333;
 	text-decoration: none;
@@ -366,21 +366,21 @@ a.navbar:hover {
 	padding-left: 10px;
 }
 .textgreen {
-	font-family: "Quattrocento Sans";
+	font-family: "Arial";
 	font-size: 14px;
 	color: #00DCDC;
 	text-decoration: none;
 	line-height: 1.3em;
 }
 .textwhite {
-	font-family: "Quattrocento Sans";
+	font-family: "Arial";
 	font-size: 14px;
 	color: #FFF;
 	text-decoration: none;
 	line-height: 1.3em;
 }
 .text {
-	font-family: "Quattrocento Sans";
+	font-family: "Arial";
 	font-size: 14px;
 	color: #000;
 	text-decoration: none;
@@ -704,7 +704,7 @@ a:hover {
 	height: 23px;
 	width: 930px;
 	position: relative;
-	font-family: "Quattrocento Sans";
+	font-family: "Arial";
 	font-size: 14px;
 	line-height: 1.3em;
 	background-color: #666666;
@@ -791,7 +791,7 @@ a:hover {
 	padding: 10px;
 	height: 20px;
 	width: 300px;
-	font-family: "Quattrocento Sans";
+	font-family: "Arial";
 	font-size: 14px;
 	color: #000;
 	border-top-style: none;
@@ -804,7 +804,7 @@ a:hover {
 	padding: 10px;
 	height: 20px;
 	width: 300px;
-	font-family: "Quattrocento Sans";
+	font-family: "Arial";
 	font-size: 14px;
 	color: #000;
 	border-top-style: none;
@@ -816,7 +816,7 @@ a:hover {
 	background-color: #CCC;
 	padding: 10px;
 	height: 40px;
-	font-family: "Quattrocento Sans";
+	font-family: "Arial";
 	font-size: 14px;
 	color: #000;
 	border-top-style: none;
@@ -829,7 +829,7 @@ a:hover {
 	padding: 10px;
 	height: 100px;
 	width: 300px;
-	font-family: "Quattrocento Sans";
+	font-family: "Arial";
 	font-size: 14px;
 	color: #000;
 	border-top-style: none;
@@ -842,7 +842,7 @@ a:hover {
 	padding: 10px;
 	height: 100px;
 	width: 300px;
-	font-family: "Quattrocento Sans";
+	font-family: "Arial";
 	font-size: 14px;
 	color: #000;
 	border-top-style: none;
